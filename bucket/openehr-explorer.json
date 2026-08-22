@@ -1,0 +1,25 @@
+{
+    "version": "0.4.2",
+    "description": "Browse, query, and inspect any openEHR CDR — no curl required.",
+    "homepage": "https://platzhersh.github.io/openehr-explorer/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/platzhersh/openehr-explorer/releases/download/v0.4.2/openEHR.Explorer_0.4.2_x64-setup.exe",
+    "hash": "1ed91756b69595ed08758f50850abaf353e8c47fd0ac991510cd8d12f6781033",
+    "installer": {
+        "file": "openEHR.Explorer_0.4.2_x64-setup.exe",
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "uninstall.exe"
+    },
+    "checkver": {
+        "github": "platzhersh/openehr-explorer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/platzhersh/openehr-explorer/releases/download/v$version/openEHR.Explorer_$version_x64-setup.exe"
+    },
+    "notes": "openEHR Explorer is not yet notarized/Authenticode-signed. Windows SmartScreen may warn on first launch — click 'More info' > 'Run anyway'."
+}
