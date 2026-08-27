@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "Browse, query, and inspect any openEHR CDR — no curl required.",
     "homepage": "https://platzhersh.github.io/openehr-explorer/",
     "license": "Apache-2.0",
-    "url": "https://github.com/platzhersh/openehr-explorer/releases/download/v0.6.0/openEHR.Explorer_0.6.0_x64-setup.exe",
-    "hash": "b40dd993117474f675684718b86020b45cc8873638eba85ddf1ec7bfb911630b",
+    "url": "https://github.com/platzhersh/openehr-explorer/releases/download/v0.7.0/openEHR.Explorer_0.7.0_x64-setup.exe",
+    "hash": "3539b251398555f9ec6bf82531fc4b5a785f1ef575c762576b7c21437b7f34cb",
     "installer": {
-        "file": "openEHR.Explorer_0.6.0_x64-setup.exe",
+        "file": "openEHR.Explorer_0.7.0_x64-setup.exe",
         "args": [
             "/S",
             "/D=$dir"
