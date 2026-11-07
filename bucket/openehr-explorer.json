@@ -4,7 +4,7 @@
     "homepage": "https://openehr-explorer.dev/",
     "license": "Apache-2.0",
     "url": "https://github.com/platzhersh/openehr-explorer/releases/download/v0.10.2/openEHR.Explorer_0.10.2_x64-setup.exe",
-    "hash": "c5c9183729c06c21f67e36084d12faa32733818af06c24b50daeca8c8b60ab18",
+    "hash": "8de76a93e9236554c7131d8d75570373d91657afa64c5d1119d6e04b9dddad29",
     "installer": {
         "file": "openEHR.Explorer_0.10.2_x64-setup.exe",
         "args": [
